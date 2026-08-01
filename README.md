@@ -84,12 +84,12 @@ CGPA-CALCULATOR/
 
 | Feature | Status | Details |
 | --- | --- | --- |
-| Login and registration | Current | Register new users and log in with locally stored credentials. |
-| Course entry flow | Current | Enter the number of courses before opening the CGPA calculator. |
-| Course selection | Current | Choose course code, credit, and grade from predefined lists. |
-| Manual adjustment | Current | Add manual credit and CGPA values when needed. |
-| CGPA calculation | Current | Calculates total credits and CGPA from all entered records. |
-| Validation dialogs | Current | Warns on empty input, duplicates, and invalid credential checks. |
+| Login and registration | ✅ Current | Register new users and log in with locally stored credentials. |
+| Course entry flow | ✅ Current | Enter the number of courses before opening the CGPA calculator. |
+| Course selection | ✅ Current | Choose course code, credit, and grade from predefined lists. |
+| Manual adjustment | ✅ Current | Add manual credit and CGPA values when needed. |
+| CGPA calculation | ✅ Current | Calculates total credits and CGPA from all entered records. |
+| Validation dialogs | ✅ Current | Warns on empty input, duplicates, and invalid credential checks. |
 
 
 ### Flow diagram
@@ -126,11 +126,13 @@ M --> O[Clear temporary grade file]
 
 ## 🧰 Tech stack
 
-• Language: Java 8
-• UI: JavaFX
-• IDE setup: Eclipse with e(fx)clipse / JavaFX container support
-• Storage: Plain-text local files
-• Build metadata: Eclipse FX build file (`build.fxbuild`)
+- **Language:** Java 8
+- **UI framework:** JavaFX for the desktop interface
+- **Development environment:** Eclipse with e(fx)clipse and JavaFX support
+- **Data storage:** Plain-text local files for user and course records
+- **Build metadata:** Eclipse FX build configuration via `build.fxbuild`
+
+This stack keeps the project lightweight, portable, and easy to run locally without any external database or backend services.
 
 
 ## ⚙️ Install methods
