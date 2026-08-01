@@ -14,10 +14,6 @@
 </p>
 </div>
 
-## Overview
-
-`CGPA Calculator` is a Java 8 and JavaFX desktop app for local CGPA calculation. It uses a simple register/login flow and stores temporary course data in project-root text files. The app computes `CGPA = Σ(Credit × Grade Point) / Σ(Credit)` and validates duplicate, empty, and invalid inputs.
-
 
 ## Table of Contents
 
