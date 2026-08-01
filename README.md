@@ -3,7 +3,7 @@
 
 <h1>CGPA Calculator</h1>
 
-<p>JavaFX desktop application for computing a student's CGPA from locally captured course-credit and grade-point records.</p>
+<p align="center"><i>JavaFX desktop application for computing a student's CGPA from locally captured course-credit and grade-point records.</i></p>
 
 <p>
 <img alt="Java 8" src="https://img.shields.io/badge/Java-8-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
