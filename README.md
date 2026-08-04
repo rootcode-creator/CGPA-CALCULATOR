@@ -37,9 +37,7 @@
 
 ## 🚀 Project intro
 
-`CGPA Calculator` is a Java 8 and JavaFX desktop application that implements a local, file-backed workflow for collecting student course data and deriving a final CGPA score.
-
-The application authenticates users through a lightweight register/login flow, captures course count and course-level grade input through JavaFX forms, and persists intermediate values in plain-text files under the project root. The calculator then evaluates the weighted-average GPA formula:
+`CGPA Calculator` is a Java 8 and JavaFX desktop application that implements a local, file-backed workflow for collecting student course data and deriving a final CGPA score. The application authenticates users through a lightweight register/login flow, captures course count and course-level grade input through JavaFX forms, and persists intermediate values in plain-text files under the project root. The calculator then evaluates the weighted-average using formula below.
 
 CGPA = Σ(Credit × Grade Point) / Σ(Credit)
 
